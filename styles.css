@@ -1,10 +1,19 @@
+@font-face {
+font-family: "Aloha";
+src: url("/Aloha.ttf");
+src: 
+url("/aloha-webfont.woff") format("woff")
+}
 body{
     text-align: center;
     color: #2e3192;
     text-align: center;
-    font-family: "Arial";
+    font-family: "Aloha";
     padding: 0;
     margin: 0;
+}
+h2{
+    font-size: 1.6em;
 }
 #clock{
     text-align: center;
@@ -52,6 +61,6 @@ input{
     color: #ffffff;
     text-align: center;
     font-size: 0.8em;
-    font-family: Arial;
+    font-family: "Arial";
     border-top: none;
 }
